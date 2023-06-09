@@ -86,7 +86,7 @@ section {
   min-width: 100vh;
   display: flex;
   align-items: center;
-  padding: 20rem 9% 2rem;
+  padding: 10rem 9% 2rem;
   background: url("background.jpg") no-repeat;
   background-size: cover;
   background-position: right;
@@ -97,6 +97,7 @@ section {
 .home-content {
   max-width: 60rem;
   z-index: 99;
+  /* background-color: red; */
 }
 
 .home-content h1 {
@@ -207,7 +208,7 @@ section {
 /* FACEBOOK TWITTER LINKEDIN */
 .home-sci {
   position: absolute;
-  bottom: 4rem;
+  bottom: 2.5rem;
   width: 170px;
   display: flex;
   justify-content: space-between;
