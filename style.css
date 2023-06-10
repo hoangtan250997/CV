@@ -841,7 +841,7 @@ section.skills {
 }
 @media (max-width: 1400px) {
   html {
-    font-size: 80%;
+    font-size: 75%;
   }
   section.about .heading {
     margin-bottom: 5rem;
@@ -863,7 +863,7 @@ section.skills {
   }
 } */
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   header {
     background: var(--bg-color);
   }
