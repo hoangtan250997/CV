@@ -22,7 +22,6 @@ html {
   overflow-x: hidden;
 }
 body {
-  /* width: 80%; */
   background: var(--bg-color);
   color: var(--text-color);
 }
@@ -50,9 +49,8 @@ header {
   border-radius: 5px;
   font-size: 2.5rem;
   color: var(--text-color);
-  font-weight: 600;
+  font-weight: 1000;
   padding: 0 2rem;
-  color: var(--bg-color);
 }
 .navbar a {
   font-size: 1.7rem;
@@ -63,7 +61,6 @@ header {
 .navbar a:hover,
 .navbar a.active {
   color: var(--main-color);
-  /* Tự thêm */
   text-decoration: none;
 }
 
@@ -76,31 +73,22 @@ header {
 
 section {
   min-height: 100vh;
-  /* max-height: 100vh; */
-
   padding: 10rem 5% 5rem;
-  /* chuyển từ .ho5me ở dưới lên */
-  /* display: flex; */
-  /* align-items: center; */
-  /* height: 10%; */
 }
 
 .home {
-  /* min-width: 100vh; */
   display: flex;
   align-items: center;
   padding: 10rem 9% 2rem;
-  background: url("background3.jpg") no-repeat;
+  background: url("assets/background6.jpg") no-repeat;
   background-size: cover;
   background-position: right;
-  /* background-position: center; */
 }
 
 /* HOME CONTENT */
 .home-content {
   max-width: 60rem;
   z-index: 99;
-  /* background-color: red; */
 }
 
 .home-content h1 {
@@ -256,11 +244,10 @@ section .home-imgHover {
   position: absolute;
   top: 0;
   right: 0;
-  width: 45%;
+  width: 60%;
   height: 100%;
   background: transparent;
   transition: 3s;
-  /* z-index: -10; */
 }
 .home-imgHover:hover {
   background: var(--bg-color);
@@ -441,7 +428,6 @@ section.about .bx {
   background: var(--bg-color);
 }
 .container #col2 {
-  /* background-color: brown; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -523,10 +509,6 @@ section.about .bx {
 }
 /* EDUCATION SECTION */
 .education {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
   padding-bottom: 5rem;
 }
 
@@ -848,21 +830,6 @@ section.skills {
   }
 }
 
-/* @media (max-width: 991px) {
-  html {
-    padding: 2rem 4%;
-  }
-  section {
-    padding: 10rem 4% 10rem;
-  }
-  .home {
-    padding: 0 4%;
-  }
-  .footer {
-    padding: 2rem 4%;
-  }
-} */
-
 @media (max-width: 1200px) {
   header {
     background: var(--bg-color);
@@ -956,12 +923,8 @@ section.skills {
   }
   .about .container #col2 {
     order: 1;
-
-    /* display: block; */
     float: left;
     margin-top: 0;
-
-    /* clear: left; */
     width: 40%;
   }
   .about .about-img {
@@ -972,7 +935,6 @@ section.skills {
   }
 }
 /* KEYFRAMES ANIMATION */
-/* FOR H3 */
 @keyframes homeBgText {
   0%,
   10%,

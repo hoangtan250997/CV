@@ -25,7 +25,7 @@ window.onscroll = () => {
           .classList.add("active");
       });
 
-      // remove toggle icone and navbar when click navbar links (scroll)
+      // remove toggle icon and navbar when click navbar links (scroll)
       menuIcon.classList.remove("bx-x");
       navbar.classList.remove("active");
     }
@@ -40,5 +40,3 @@ menuIcon.onclick = () => {
   menuIcon.classList.toggle("bx-x");
   navbar.classList.toggle("active");
 };
-
-// 1.21.30
